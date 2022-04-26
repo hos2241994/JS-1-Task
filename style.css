@@ -65,8 +65,19 @@ main{
     margin-bottom: 20px;
     background: rgb(128 128 128 / 20%);
     padding: 15px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #to-do-list li span{
     color: red;
+}
+
+#to-do-list li button{
+    border: none;
+    cursor: pointer;
+    background: black;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 8px;
 }
