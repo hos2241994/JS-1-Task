@@ -16,7 +16,7 @@ main{
     align-items: center;
 }
 
-.to-do-conytainer{
+.to-do-container{
     background-color: white;
     padding: 30px;
     width: 80%;
@@ -25,7 +25,7 @@ main{
     box-shadow: 2px 4px 5px rgb(0 0 0 / 30%);
 }
 
-.to-do-conytainer #msg{
+.to-do-container #msg{
     background-color: rgb(255 0 0 / 30%);
     text-align: center;
     margin-bottom: 20px;
@@ -33,12 +33,12 @@ main{
     display: none;
 }
 
-.to-do-conytainer form{
+.to-do-container form{
     display: flex;
     flex-direction: column;
 }
 
-.to-do-conytainer form input{
+.to-do-container form input{
     margin-bottom: 20px;
     padding: 10px;
     outline: none;
@@ -47,7 +47,7 @@ main{
     font-size: 20px;
 }
 
-.to-do-conytainer form #btn{
+.to-do-container form #btn{
     align-self: center;
     padding: 10px 25px;
     border: none;
@@ -56,7 +56,6 @@ main{
     border-radius: 8px;
     cursor: pointer;
     font-size: 20px;
-    margin-bottom: 20px;
 }
 
 #to-do-list li {
